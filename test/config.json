@@ -1,0 +1,33 @@
+{
+    "canvasStyle": {
+        "font": "16px Arial"
+    },
+    "layers": [
+        {
+            "name": "Continents",
+            "backgroundColor": "#d3d3d3",
+            "nodes": [
+                { "id": "na", "label": "North America", "color": "#ff9a8b", "x": 150, "y": 200, "width": 200, "height": 150 },
+                { "id": "eu", "label": "Europe", "color": "#86e3ce", "x": 500, "y": 250, "width": 180, "height": 120 }
+            ]
+        },
+        {
+            "name": "Countries",
+            "nodes": [
+                { "parentId": "na", "id": "usa", "label": "USA", "color": "#f9c2a0", "x": 100, "y": 150, "width": 120, "height": 80 },
+                { "parentId": "na", "id": "canada", "label": "Canada", "color": "#a0c4f9", "x": 300, "y": 100, "width": 110, "height": 70 },
+                { "parentId": "eu", "id": "germany", "label": "Germany", "color": "#c7b3e5", "x": 450, "y": 200, "width": 100, "height": 60 },
+                { "parentId": "eu", "id": "france", "label": "France", "color": "#f3b3e5", "x": 600, "y": 300, "width": 100, "height": 60 }
+            ]
+        },
+        {
+            "name": "Cities",
+            "nodes": [
+                { "parentId": "usa", "id": "nyc", "label": "New York", "color": "#f7d5b8", "x": 120, "y": 180, "width": 80, "height": 40 },
+                { "parentId": "canada", "id": "toronto", "label": "Toronto", "color": "#b8d8f7", "x": 320, "y": 130, "width": 80, "height": 40 },
+                { "parentId": "germany", "id": "berlin", "label": "Berlin", "color": "#d9cceb", "x": 470, "y": 230, "width": 70, "height": 35 },
+                { "parentId": "france", "id": "paris", "label": "Paris", "color": "#f7cceb", "x": 620, "y": 330, "width": 70, "height": 35 }
+            ]
+        }
+    ]
+}
